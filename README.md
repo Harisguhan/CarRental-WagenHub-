@@ -42,33 +42,33 @@
 ### **Backend Setup:**
 
 1. Navigate to the backend directory:
-   
+   ```sh
    cd WagenHub-Backend/WagenHub-backend
-   
+   ```
 2. Install dependencies and build the project:
-   
+   ```sh
    mvn clean install
-   
+   ```
 3. Configure the **application.properties** file with your MySQL credentials.
 4. Run the Spring Boot application:
-   
+   ```sh
    mvn spring-boot:run
-   
+   ```
 
 ### **Frontend Setup:**
 
 1. Navigate to the frontend directory:
-   
+   ```sh
    cd WagenHub-Frontend/lastf
-   
+   ```
 2. Install dependencies:
-   
+   ```sh
    npm install
-   
+   ```
 3. Start the React development server:
-   
+   ```sh
    npm run dev
-   
+   ```
 
 ## API Endpoints (Example)
 
@@ -84,9 +84,10 @@
 
 - **Docker Support:** Future enhancement to containerize the application.
 - **CI/CD Integration:** Automate deployment using GitHub Actions.
-- **Cloud Deployment:** AWS, Azure or Google Cloud production hosting.
+- **Cloud Deployment:** AWS, Azure or Google Cloud for production hosting.
 
 ## Contributing
 
 Contributions are welcome! Fork the repository and submit a pull request with your improvements.
+
 
